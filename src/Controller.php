@@ -24,7 +24,7 @@ class Controller
         $database->where('status', '=', 'sent')->delete();
 
         return response()->json([
-            'logeye_api_key' => config ('logeye.api_key', '1ba7d6e4a71c49354b6a3bd616c1a0547e83e6cf45205b54c8447e0fc377fa92'), 
+            'logeye_api_key' => config ('logeye.api_token'), 
             'logs'  => $send_data
         ]);
     }
