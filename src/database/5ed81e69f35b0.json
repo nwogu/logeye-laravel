@@ -1,0 +1,11 @@
+{
+    "__created_at": 1591221865,
+    "__updated_at": 1591221865,
+    "data": {
+        "status": "unsent",
+        "message": "GET / - Headers: {\"Te\":\"trailers\",\"Upgrade-Insecure-Requests\":\"1\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Accept-Language\":\"en-US,en;q=0.5\",\"Accept\":\"text\\/html,application\\/xhtml+xml,application\\/xml;q=0.9,image\\/webp,*\\/*;q=0.8\",\"User-Agent\":\"Mozilla\\/5.0 (Macintosh; Intel Mac OS X 10.14; rv:76.0) Gecko\\/20100101 Firefox\\/76.0\",\"Host\":\"ulesson.test\",\"Content-Length\":\"\",\"Content-Type\":\"\"} - Body: [] Content:  - Files:   \n",
+        "level": "INFO",
+        "channel": "local",
+        "date": "2020-06-03 22:04:25"
+    }
+}
