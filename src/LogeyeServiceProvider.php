@@ -20,7 +20,7 @@ class LogeyeServiceProvider extends ServiceProvider
         });
 
         $this->mergeConfigFrom(
-            __DIR__.'../config/logeye.php', 'logeye'
+            __DIR__. "../config/logeye.php", "logeye"
         );
     }
 
@@ -29,7 +29,7 @@ class LogeyeServiceProvider extends ServiceProvider
         $this->app['router']->addRoute("GET", Controller::$url, Controller::class);
 
         $this->publishes([
-            __DIR__.'../config/logeye.php' => config_path('logeye.php')
+            __DIR__. "../config/logeye.php" => config_path('logeye.php')
         ]);
     }
 
